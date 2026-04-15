@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>CandyClinic ✨ | Joyful Future of Care</title>
+    <title>Puskesmas Jagapura ✨ | Layanan Kesehatan Terpercaya</title>
     <!-- Tailwind + Google Fonts + Material Icons -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
@@ -118,7 +118,7 @@
         <nav class="flex justify-between items-center px-6 md:px-10 h-20 max-w-7xl mx-auto font-['DM_Sans'] font-bold">
             <div class="text-2xl font-black tracking-tight cursor-pointer group flex items-center gap-1">
                 <span class="material-symbols-outlined text-primary text-3xl group-hover:scale-110 transition-transform duration-200">favorite</span>
-                <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">CandyClinic</span>
+                <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Puskesmas Jagapura</span>
             </div>
             <div class="hidden md:flex items-center gap-8 text-base">
                 <a class="text-on-surface/80 hover:text-primary transition-all duration-300 relative after:absolute after:bottom-[-6px] after:left-0 after:w-0 after:h-[2px] after:bg-primary after:transition-all after:duration-300 hover:after:w-full" href="#">Services</a>
@@ -147,7 +147,7 @@
                         Excellence in <span class="text-primary italic inline-block hover:scale-105 transition-transform duration-300">Joyful</span> Care
                     </h1>
                     <p class="text-xl text-on-surface-variant mb-10 max-w-lg leading-relaxed">
-                        Sanctuary Clinic combines world-class medical expertise with a vibrant, human-centered experience. We believe healing starts with a smile.
+                        Puskesmas Jagapura menggabungkan keahlian medis kelas dunia dengan pengalaman yang berpusat pada manusia. Kami percaya penyembuhan dimulai dengan senyuman.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                         <a href="{{ route('login') }}" class="bg-primary text-on-primary px-8 py-4 rounded-full text-lg font-bold shadow-[0_12px_24px_-8px_rgba(151,65,105,0.4)] hover:shadow-[0_20px_30px_-10px_rgba(151,65,105,0.5)] transition-all duration-300 hover:-translate-y-1 flex items-center gap-2 group decoration-transparent w-fit">
@@ -181,7 +181,7 @@
         <section class="px-6 py-24 bg-surface-container-low">
             <div class="max-w-7xl mx-auto">
                 <div class="mb-16 text-center scroll-reveal">
-                    <h2 class="text-4xl md:text-5xl font-black mb-4 italic inline-flex items-center gap-2">Our Specialized Clinics <span class="material-symbols-outlined text-primary text-4xl">auto_awesome</span></h2>
+                    <h2 class="text-4xl md:text-5xl font-black mb-4 italic inline-flex items-center gap-2">Poli Spesialis Kami <span class="material-symbols-outlined text-primary text-4xl">auto_awesome</span></h2>
                     <p class="text-on-surface-variant max-w-2xl mx-auto text-lg">Discover a new standard of healthcare across our specialized departments, designed for your comfort.</p>
                 </div>
                 <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -247,7 +247,7 @@
                     <img alt="Patient Friendly Environment" class="relative rounded-2xl shadow-2xl z-10 w-full object-cover aspect-square hover:scale-[1.02] transition duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6Oct4tOO1b7-o7OsWJqxB8-HfB9aWIBzjja-KfAfXd8G6AY5TAJaSUO6a6-26lK_8QWhgIrYSmeN5v2uyqs2kSTaXpACWxQvuETJGvsJLmO-wWyQvmDaiMaq4xzFs6Bj5JDtD_eiDwVQRLQO65pnw0wz5SlacTct0t5xmnZpkHGokADAVezB0_IBXoLg4IwS57dH8Uwxj_aIRCjCxcndNsbbfq1OJOPZtThcr6W0asjAfXSFUeibyix0QC-7nq-4DJ41wyMnylFA4"/>
                 </div>
                 <div class="flex-1 scroll-reveal">
-                    <h2 class="text-4xl font-black mb-12">Why Choose <span class="text-secondary italic relative inline-block after:content-[''] after:absolute after:w-full after:h-2 after:bg-secondary/30 after:bottom-0 after:left-0 after:rounded-full">Sanctuary?</span></h2>
+                    <h2 class="text-4xl font-black mb-12">Mengapa Memilih <span class="text-secondary italic relative inline-block after:content-[''] after:absolute after:w-full after:h-2 after:bg-secondary/30 after:bottom-0 after:left-0 after:rounded-full">Jagapura?</span></h2>
                     <div class="space-y-8">
                         <div class="flex gap-6 items-start group hover:translate-x-2 transition-transform duration-300">
                             <div class="shrink-0 w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center text-primary shadow-md group-hover:bg-primary group-hover:text-white transition-all"><span class="material-symbols-outlined text-2xl">app_registration</span></div>
@@ -291,8 +291,8 @@
     <footer class="w-full bg-white rounded-t-[48px] mt-12 border-t border-slate-100 shadow-[0_-20px_40px_-12px_rgba(124,82,170,0.08)]">
         <div class="max-w-7xl mx-auto p-10 flex flex-col md:flex-row justify-between items-center gap-8 font-['DM_Sans'] text-sm text-slate-500">
             <div class="flex flex-col items-center md:items-start gap-2">
-                <div class="text-xl font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent flex items-center gap-1">CandyClinic <span class="material-symbols-outlined text-primary">favorite</span></div>
-                <p class="max-w-xs text-center md:text-left">© 2024 CandyClinic. Excellence in Joyful Care.</p>
+                <div class="text-xl font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent flex items-center gap-1">Puskesmas Jagapura <span class="material-symbols-outlined text-primary">favorite</span></div>
+                <p class="max-w-xs text-center md:text-left">© 2024 Puskesmas Jagapura. Keunggulan dalam Layanan Kesehatan.</p>
             </div>
             <div class="flex gap-8 flex-wrap justify-center">
                 <a class="hover:text-primary transition-all hover:-translate-y-0.5 duration-200" href="#">Privacy Policy</a>
@@ -323,7 +323,7 @@
         document.querySelectorAll('button').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 e.preventDefault();
-                alert("✨ Thanks for exploring CandyClinic! ✨\n(Booking demo — modern care is on the way)");
+                alert("✨ Terima kasih telah menjelajahi Puskesmas Jagapura! ✨\n(Demo Booking — layanan modern segera hadir)");
             });
         });
     </script>

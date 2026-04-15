@@ -3,7 +3,7 @@
     {{-- Logo --}}
     <div class="flex items-center gap-2 px-5 h-16 border-b border-outline-variant/30">
         <span class="material-symbols-outlined text-primary text-2xl" style="font-variation-settings:'FILL' 1;">favorite</span>
-        <span class="text-lg font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">CandyClinic</span>
+        <span class="text-lg font-black bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Puskesmas Jagapura</span>
     </div>
 
     {{-- Navigation Links --}}

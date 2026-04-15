@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>@yield('title', 'Auth') | Sanctuary Clinic</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>@yield('title', 'Auth') | puskesmas jagapura</title>
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+        rel="stylesheet" />
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -66,7 +68,12 @@
                         "body": ["DM Sans"],
                         "label": ["DM Sans"]
                     },
-                    borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+                    borderRadius: {
+                        "DEFAULT": "1rem",
+                        "lg": "2rem",
+                        "xl": "3rem",
+                        "full": "9999px"
+                    },
                 },
             },
         }
@@ -74,38 +81,47 @@
     <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            vertical-align: middle; 
-            display: inline-flex; 
-            align-items: center; 
+            vertical-align: middle;
+            display: inline-flex;
+            align-items: center;
             justify-content: center;
         }
-        body { font-family: 'DM Sans', sans-serif; }
+
+        body {
+            font-family: 'DM Sans', sans-serif;
+        }
     </style>
     @stack('styles')
 </head>
+
 <body class="bg-background text-on-background min-h-screen flex items-center justify-center p-0 m-0 overflow-x-hidden">
     <main class="flex min-h-screen w-full flex-col lg:flex-row">
         <!-- Left Section: Branding & Message -->
-        <section class="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-primary to-secondary relative items-center justify-center p-12 overflow-hidden">
+        <section
+            class="hidden lg:flex lg:w-1/2 bg-gradient-to-br from-primary to-secondary relative items-center justify-center p-12 overflow-hidden">
             <!-- Decorative Elements -->
             <div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-white/10 rounded-full blur-3xl"></div>
             <div class="absolute bottom-[-10%] right-[-10%] w-96 h-96 bg-tertiary/20 rounded-full blur-3xl"></div>
-            
+
             <div class="relative z-10 text-center flex flex-col items-center">
                 <!-- Product Identity from JSON -->
-                <a href="{{ url('/') }}" class="mb-8 p-6 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 shadow-2xl hover:scale-105 transition-transform duration-300 block decoration-transparent">
-                    <h1 class="text-4xl lg:text-6xl font-black text-white tracking-tighter mb-2">Sanctuary Clinic</h1>
+                <a href="{{ url('/') }}"
+                    class="mb-8 p-6 bg-white/10 backdrop-blur-md rounded-xl border border-white/20 shadow-2xl hover:scale-105 transition-transform duration-300 block decoration-transparent">
+                    <h1 class="text-4xl lg:text-6xl font-black text-white tracking-tighter mb-2">puskesmas jagapura</h1>
                     <p class="text-white/80 text-xl font-medium tracking-wide">Patient Portal</p>
                 </a>
-                
-                <div class="relative w-full max-w-md aspect-square mb-8 rounded-xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.2)]">
-                    <img alt="Modern Medical Facility" class="object-cover w-full h-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQ-qmggODt7H2Vg0c4JoMh10fj02_va9L57_Z-3tiRHxsEf3mMQH4OtR3aTPn27TnCkVReJruJidskJn8VXzayoqfSA3sRG_ewsBm8Zem3DxuabTXMakmlOLSHr0FX-tPnllLOXfoPIFlLlcRZjtOJB7hp6KLaDnbGG1OnYI3rW51FmrkE0cvdmXAWoFrsoarDbrtbWAYze9auucnBuzIxySPR1Bz1JZthyYGo_GwdK9zWCEaQztrBmJqV4FMKN63SuOBRuWys98B-"/>
+
+                <div
+                    class="relative w-full max-w-md aspect-square mb-8 rounded-xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.2)]">
+                    <img alt="Modern Medical Facility" class="object-cover w-full h-full"
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQ-qmggODt7H2Vg0c4JoMh10fj02_va9L57_Z-3tiRHxsEf3mMQH4OtR3aTPn27TnCkVReJruJidskJn8VXzayoqfSA3sRG_ewsBm8Zem3DxuabTXMakmlOLSHr0FX-tPnllLOXfoPIFlLlcRZjtOJB7hp6KLaDnbGG1OnYI3rW51FmrkE0cvdmXAWoFrsoarDbrtbWAYze9auucnBuzIxySPR1Bz1JZthyYGo_GwdK9zWCEaQztrBmJqV4FMKN63SuOBRuWys98B-" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
                 </div>
-                
+
                 <h2 class="text-3xl lg:text-4xl font-black text-white mb-4">Kesehatan Anda, Prioritas Kami.</h2>
                 <p class="text-white/90 text-lg max-w-md font-medium">
-                    Selamat Datang di Sanctuary Clinic. Kami menyediakan layanan kesehatan terbaik dengan sentuhan personal dan teknologi terkini.
+                    Selamat Datang di puskesmas jagapura. Kami menyediakan layanan kesehatan terbaik dengan sentuhan
+                    personal dan teknologi terkini.
                 </p>
             </div>
         </section>
@@ -115,32 +131,35 @@
             <div class="w-full max-w-md">
                 <!-- Brand Mobile Header -->
                 <div class="lg:hidden text-center mb-8">
-                    <h1 class="text-3xl font-black text-primary tracking-tight">Sanctuary Clinic</h1>
+                    <h1 class="text-3xl font-black text-primary tracking-tight">puskesmas jagapura</h1>
                     <p class="text-secondary font-bold">Kesehatan Anda, Prioritas Kami.</p>
                 </div>
-                
+
                 @yield('header')
 
-                @if($errors->any())
-                    <div class="mb-5 px-4 py-3 bg-error/10 border border-error/20 rounded-xl text-sm text-error flex items-start gap-2">
+                @if ($errors->any())
+                    <div
+                        class="mb-5 px-4 py-3 bg-error/10 border border-error/20 rounded-xl text-sm text-error flex items-start gap-2">
                         <span class="material-symbols-outlined text-base mt-0.5">error</span>
                         <ul class="list-none space-y-0.5 m-0 p-0 text-left">
-                            @foreach($errors->all() as $error)
+                            @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
                             @endforeach
                         </ul>
                     </div>
                 @endif
-                
-                @if(session('status'))
-                    <div class="mb-5 px-4 py-3 bg-tertiary-fixed/40 border border-tertiary-fixed rounded-xl text-sm text-on-tertiary-container flex items-center gap-2">
+
+                @if (session('status'))
+                    <div
+                        class="mb-5 px-4 py-3 bg-tertiary-fixed/40 border border-tertiary-fixed rounded-xl text-sm text-on-tertiary-container flex items-center gap-2">
                         <span class="material-symbols-outlined text-base">check_circle</span>
                         {{ session('status') }}
                     </div>
                 @endif
-                
-                @if(session('success'))
-                    <div class="mb-5 px-4 py-3 bg-tertiary-fixed/40 border border-tertiary-fixed rounded-xl text-sm text-on-tertiary-container flex items-center gap-2">
+
+                @if (session('success'))
+                    <div
+                        class="mb-5 px-4 py-3 bg-tertiary-fixed/40 border border-tertiary-fixed rounded-xl text-sm text-on-tertiary-container flex items-center gap-2">
                         <span class="material-symbols-outlined text-base">check_circle</span>
                         {{ session('success') }}
                     </div>
@@ -148,7 +167,7 @@
 
                 <!-- Tabbed Form Container -->
                 <div class="bg-white rounded-xl shadow-[0_8px_30px_rgba(224,64,160,0.1)] overflow-hidden">
-                    
+
                     @hasSection('tabs')
                         @yield('tabs')
                     @endif
@@ -162,7 +181,7 @@
                 <!-- Footer Links -->
                 <div class="mt-8 flex flex-col items-center gap-4 text-center">
                     @yield('footer_text')
-                    
+
                     <div class="flex gap-4 text-xs font-bold text-secondary">
                         <a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
                         <span class="text-outline-variant">•</span>
@@ -170,7 +189,8 @@
                         <span class="text-outline-variant">•</span>
                         <a class="hover:text-primary transition-colors" href="#">Contact Support</a>
                     </div>
-                    <p class="text-xs text-outline-variant font-medium mt-2">© {{ date('Y') }} Sanctuary Clinic. All rights reserved.</p>
+                    <p class="text-xs text-outline-variant font-medium mt-2">© {{ date('Y') }} puskesmas jagapura.
+                        All rights reserved.</p>
                 </div>
             </div>
         </section>
@@ -178,4 +198,5 @@
 
     @stack('scripts')
 </body>
+
 </html>
